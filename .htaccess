@@ -1,0 +1,8 @@
+# Disable index view
+Options -Indexes
+
+# Hide .example files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
